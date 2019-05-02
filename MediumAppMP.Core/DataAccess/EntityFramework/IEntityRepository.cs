@@ -14,5 +14,7 @@ namespace MediumAppMP.Core.DataAccess.EntityFramework
         T Update(T entity);
         void Delete(T entity);
 
+        void Test();
+
     }
 }
