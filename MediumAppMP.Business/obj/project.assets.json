@@ -47,22 +47,11 @@
           "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {}
         }
       },
-      "MediumAppMP.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/MediumAppMP.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediumAppMP.Core.dll": {}
-        }
-      },
       "MediumAppMP.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidation": "8.3.0",
-          "MediumAppMP.Core": "1.0.0"
+          "FluentValidation": "8.3.0"
         },
         "compile": {
           "bin/placeholder/MediumAppMP.Entities.dll": {}
@@ -75,10 +64,11 @@
   },
   "libraries": {
     "FluentValidation/8.3.0": {
-      "sha512": "o/4Q+KL2HXGy0EXuYQbj5FPrM/OYYWLB9r9TDBlb9O4cQWLoy9Pz6/8MTdcCrhPHAUYKjBmTsI7tWSnaQiJJvQ==",
+      "sha512": "tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
       "type": "package",
       "path": "fluentvalidation/8.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "fluentvalidation.8.3.0.nupkg.sha512",
         "fluentvalidation.nuspec",
@@ -233,10 +223,11 @@
       ]
     },
     "System.ComponentModel.Annotations/4.4.1": {
-      "sha512": "/8XSRz3cgSSPEdiV6UFhlfk6/FX9P10MAja4XPCyMCz7/0YTqjtCh4e0jjLYOCJL8jK7O/vhtUjYo1TOSuPngQ==",
+      "sha512": "ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.4.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -318,11 +309,6 @@
         "version.txt"
       ]
     },
-    "MediumAppMP.Core/1.0.0": {
-      "type": "project",
-      "path": "../MediumAppMP.Core/MediumAppMP.Core.csproj",
-      "msbuildProject": "../MediumAppMP.Core/MediumAppMP.Core.csproj"
-    },
     "MediumAppMP.Entities/1.0.0": {
       "type": "project",
       "path": "../MediumAppMP.Entities/MediumAppMP.Entities.csproj",
@@ -337,23 +323,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muhammed.Pak\\.nuget\\packages\\": {},
+    "C:\\Users\\MP\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammed.Pak\\Desktop\\Muhammed\\MediumAppProject\\repos\\MediumAppMP.UI\\MediumAppMP.Business\\MediumAppMP.Business.csproj",
+      "projectUniqueName": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Business\\MediumAppMP.Business.csproj",
       "projectName": "MediumAppMP.Business",
-      "projectPath": "C:\\Users\\Muhammed.Pak\\Desktop\\Muhammed\\MediumAppProject\\repos\\MediumAppMP.UI\\MediumAppMP.Business\\MediumAppMP.Business.csproj",
-      "packagesPath": "C:\\Users\\Muhammed.Pak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammed.Pak\\Desktop\\Muhammed\\MediumAppProject\\repos\\MediumAppMP.UI\\MediumAppMP.Business\\obj\\",
+      "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Business\\MediumAppMP.Business.csproj",
+      "packagesPath": "C:\\Users\\MP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Muhammed.Pak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -361,14 +347,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://195.87.213.168/Ks.NugetServer/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Muhammed.Pak\\Desktop\\Muhammed\\MediumAppProject\\repos\\MediumAppMP.UI\\MediumAppMP.Entities\\MediumAppMP.Entities.csproj": {
-              "projectPath": "C:\\Users\\Muhammed.Pak\\Desktop\\Muhammed\\MediumAppProject\\repos\\MediumAppMP.UI\\MediumAppMP.Entities\\MediumAppMP.Entities.csproj"
+            "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Entities\\MediumAppMP.Entities.csproj": {
+              "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Entities\\MediumAppMP.Entities.csproj"
             }
           }
         }
