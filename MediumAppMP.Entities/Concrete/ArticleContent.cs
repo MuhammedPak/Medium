@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MediumAppMP.Entities.Concrete
 {
-    public class ArticleContent:BaseEntity<int>
+    public class ArticleContent:BaseEntity
     {
         public int ArticleId { get; set; }
         public string Content { get; set; }

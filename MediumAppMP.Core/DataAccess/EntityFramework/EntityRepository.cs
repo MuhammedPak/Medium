@@ -1,4 +1,4 @@
-﻿using MediumAppMP.Core.Entities;
+﻿using MediumAppMP.Entities.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 
 namespace MediumAppMP.Core.DataAccess.EntityFramework
 {
-    public class EntityRepository<TEntity> : IEntityRepository<TEntity> where TEntity : class, IBaseEntity<TEntity>, new()
+    public class EntityRepository<TEntity> : IEntityRepository<TEntity> where TEntity : class, IBaseEntity, new()
     {
         private DbContext db = null;
 

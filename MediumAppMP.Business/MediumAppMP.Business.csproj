@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MediumAppMP.Core\MediumAppMP.Core.csproj" />
     <ProjectReference Include="..\MediumAppMP.Entities\MediumAppMP.Entities.csproj" />
   </ItemGroup>
 

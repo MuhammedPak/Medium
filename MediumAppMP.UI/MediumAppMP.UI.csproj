@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MediumAppMP.Business\MediumAppMP.Business.csproj" />
+    <ProjectReference Include="..\MediumAppMP.Core\MediumAppMP.Core.csproj" />
     <ProjectReference Include="..\MediumAppMP.DAL\MediumAppMP.DAL.csproj" />
   </ItemGroup>
 

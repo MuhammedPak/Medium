@@ -1,11 +1,10 @@
-﻿using MediumAppMP.Core.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MediumAppMP.Entities.Concrete
 {
-    public class User:BaseEntity<int>
+    public class User:BaseEntity
     {
         public string Name { get; set; }
         public string Surname { get; set; }

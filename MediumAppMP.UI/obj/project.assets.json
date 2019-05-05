@@ -4786,6 +4786,34 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "MediumAppMP.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidation": "8.3.0",
+          "MediumAppMP.Core": "1.0.0",
+          "MediumAppMP.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MediumAppMP.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediumAppMP.Business.dll": {}
+        }
+      },
+      "MediumAppMP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MediumAppMP.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MediumAppMP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediumAppMP.Core.dll": {}
+        }
+      },
       "MediumAppMP.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -13051,6 +13079,16 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "MediumAppMP.Business/1.0.0": {
+      "type": "project",
+      "path": "../MediumAppMP.Business/MediumAppMP.Business.csproj",
+      "msbuildProject": "../MediumAppMP.Business/MediumAppMP.Business.csproj"
+    },
+    "MediumAppMP.Core/1.0.0": {
+      "type": "project",
+      "path": "../MediumAppMP.Core/MediumAppMP.Core.csproj",
+      "msbuildProject": "../MediumAppMP.Core/MediumAppMP.Core.csproj"
+    },
     "MediumAppMP.DAL/1.0.0": {
       "type": "project",
       "path": "../MediumAppMP.DAL/MediumAppMP.DAL.csproj",
@@ -13064,6 +13102,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "MediumAppMP.Business >= 1.0.0",
+      "MediumAppMP.Core >= 1.0.0",
       "MediumAppMP.DAL >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -13076,11 +13116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.UI\\MediumAppMP.UI.csproj",
+      "projectUniqueName": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.UI\\MediumAppMP.UI.csproj",
       "projectName": "MediumAppMP.UI",
-      "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.UI\\MediumAppMP.UI.csproj",
+      "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.UI\\MediumAppMP.UI.csproj",
       "packagesPath": "C:\\Users\\MP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.UI\\obj\\",
+      "outputPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13099,8 +13139,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj": {
-              "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj"
+            "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Business\\MediumAppMP.Business.csproj": {
+              "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Business\\MediumAppMP.Business.csproj"
+            },
+            "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj": {
+              "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj"
+            },
+            "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj": {
+              "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj"
             }
           }
         }

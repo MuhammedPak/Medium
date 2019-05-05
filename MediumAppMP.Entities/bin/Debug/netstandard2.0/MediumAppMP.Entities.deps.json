@@ -10,7 +10,6 @@
       "MediumAppMP.Entities/1.0.0": {
         "dependencies": {
           "FluentValidation": "8.3.0",
-          "MediumAppMP.Core": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -41,11 +40,6 @@
             "fileVersion": "4.6.25921.2"
           }
         }
-      },
-      "MediumAppMP.Core/1.0.0": {
-        "runtime": {
-          "MediumAppMP.Core.dll": {}
-        }
       }
     }
   },
@@ -58,7 +52,7 @@
     "FluentValidation/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o/4Q+KL2HXGy0EXuYQbj5FPrM/OYYWLB9r9TDBlb9O4cQWLoy9Pz6/8MTdcCrhPHAUYKjBmTsI7tWSnaQiJJvQ==",
+      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
       "path": "fluentvalidation/8.3.0",
       "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
     },
@@ -79,14 +73,9 @@
     "System.ComponentModel.Annotations/4.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/8XSRz3cgSSPEdiV6UFhlfk6/FX9P10MAja4XPCyMCz7/0YTqjtCh4e0jjLYOCJL8jK7O/vhtUjYo1TOSuPngQ==",
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
       "path": "system.componentmodel.annotations/4.4.1",
       "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
-    },
-    "MediumAppMP.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

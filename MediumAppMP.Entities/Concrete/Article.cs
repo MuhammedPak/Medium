@@ -1,12 +1,11 @@
-﻿using MediumAppMP.Core.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MediumAppMP.Entities.Concrete
 {
-    public class Article : BaseEntity<int>
-    {
+    public class Article : BaseEntity
+    { 
         public int UserId { get; set; }
         public virtual User User { get; set; }
         public virtual ArticleContent Content { get; set; }

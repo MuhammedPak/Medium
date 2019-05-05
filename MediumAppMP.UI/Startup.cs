@@ -1,4 +1,7 @@
-﻿using MediumAppMP.DAL.Concrete.EntityFramework;
+﻿using MediumAppMP.Business.Abstract;
+using MediumAppMP.Business.Concrete;
+using MediumAppMP.Core.DataAccess.EntityFramework;
+using MediumAppMP.DAL.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -20,11 +23,12 @@ namespace MediumAppMP.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MediumAppMPContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("MediumAppMP")));
+            services.AddScoped<IUserService,UserService>();
+            services.AddScoped(typeof(IEntityRepository<>), typeof(EntityRepository<>));
 
             services.AddMvc();
             services.AddSession();
             services.AddDistributedMemoryCache();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

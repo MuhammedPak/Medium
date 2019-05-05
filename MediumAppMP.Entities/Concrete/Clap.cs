@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MediumAppMP.Entities.Concrete
 {
-    public class Clap:BaseEntity<int>
+    public class Clap:BaseEntity
     {
         public virtual List<User> User{ get; set; }
         public int UserId { get; set; }

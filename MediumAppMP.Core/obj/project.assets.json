@@ -3249,11 +3249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj",
+      "projectUniqueName": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj",
       "projectName": "MediumAppMP.Core",
-      "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj",
+      "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Core\\MediumAppMP.Core.csproj",
       "packagesPath": "C:\\Users\\MP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.Core\\obj\\",
+      "outputPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3272,8 +3272,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj": {
-              "projectPath": "C:\\Users\\MP\\Source\\Repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj"
+            "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj": {
+              "projectPath": "C:\\Users\\MP\\source\\repos\\Medium\\MediumAppMP.DAL\\MediumAppMP.DAL.csproj"
             }
           }
         }

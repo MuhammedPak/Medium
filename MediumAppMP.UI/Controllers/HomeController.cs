@@ -5,13 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MediumAppMP.UI.Models;
+using MediumAppMP.Business.Abstract;
 
 namespace MediumAppMP.UI.Controllers
 {
     public class HomeController : Controller
     {
+        private IUserService userService;
+
+        public HomeController(IUserService userService)
+        {
+            this.userService = userService;
+        }
+
         public IActionResult Index()
         {
+
+
             return View();
         }
 

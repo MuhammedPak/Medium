@@ -8,8 +8,10 @@ namespace MediumAppMP.Business.ValidationRules.FluentValidation
 {
     public class TagValidator : AbstractValidator<Tag>
     {
-      
-
-        
+        public TagValidator()
+        {
+            RuleFor(x => x.ArticleId).NotEmpty();
+            RuleFor(x => x.Name).NotEmpty();            
+        }
     }
 }
