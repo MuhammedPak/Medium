@@ -125,3 +125,5 @@ C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\obj\Debug\MediumAppMP
 C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\obj\Debug\MediumAppMP.Business.Tests.csproj.CopyComplete
 C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\obj\Debug\MediumAppMP.Business.Tests.dll
 C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\obj\Debug\MediumAppMP.Business.Tests.pdb
+C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\bin\Debug\MediumAppMP.DAL.dll
+C:\Users\MP\source\repos\Medium\MediumAppMP.Business.Tests\bin\Debug\MediumAppMP.DAL.pdb

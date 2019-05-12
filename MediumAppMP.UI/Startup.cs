@@ -23,7 +23,7 @@ namespace MediumAppMP.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MediumAppMPContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("MediumAppMP")));
-            services.AddScoped<IUserService,UserService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped(typeof(IEntityRepository<>), typeof(EntityRepository<>));
 
             services.AddMvc();

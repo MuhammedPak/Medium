@@ -29,3 +29,4 @@ C:\Users\MP\source\repos\Medium\MediumAppMP.Entities\obj\Debug\netstandard2.0\Me
 C:\Users\MP\source\repos\Medium\MediumAppMP.Entities\bin\Debug\netstandard2.0\MediumAppMP.Entities.deps.json
 C:\Users\MP\source\repos\Medium\MediumAppMP.Entities\bin\Debug\netstandard2.0\MediumAppMP.Entities.dll
 C:\Users\MP\source\repos\Medium\MediumAppMP.Entities\bin\Debug\netstandard2.0\MediumAppMP.Entities.pdb
+C:\Users\MP\source\repos\Medium\MediumAppMP.Entities\obj\Debug\netstandard2.0\MediumAppMP.Entities.csprojAssemblyReference.cache

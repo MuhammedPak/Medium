@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MediumAppMP.UI.Models;
 using MediumAppMP.Business.Abstract;
+using MediumAppMP.Entities.Concrete;
 
 namespace MediumAppMP.UI.Controllers
 {
@@ -20,7 +21,12 @@ namespace MediumAppMP.UI.Controllers
 
         public IActionResult Index()
         {
+            User user = new User
+            {
+                Name = "MP"
+            };
 
+            userService.Add(user);
 
             return View();
         }
